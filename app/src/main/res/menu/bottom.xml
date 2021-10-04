@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/setting"
+        android:enabled="true"/>
+    <item android:id="@+id/favori"
+        android:title="favories"
+        android:icon="@drawable/love"
+        android:enabled="true"/>
+    <item android:enabled="true"
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/prayers"
+        android:icon="@drawable/newspaper"
+        android:title="Prayers"
+        android:enabled="true"
+        />
+
+    <item android:id="@+id/qibla"
+        android:icon="@drawable/qibla"
+        android:title="Qibla"
+        android:enabled="true"
+        />
+
+
+
+</menu>

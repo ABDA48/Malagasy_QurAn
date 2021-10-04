@@ -1,0 +1,500 @@
+<resources>
+    <string name="app_name" translatable="false">Qur\'an</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="compass_dial" translatable="false">Compass Dial</string>
+    <string name="compass_hands" translatable="false">Compass Hands</string>
+    <string name="gps_settings_title" translatable="false">GPS settings</string>
+    <string name="gps_settings_text" translatable="false">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="settings_button_ok" translatable="false">Settings</string>
+    <string name="settings_button_cancel" translatable="false">Cancel</string>
+    <string name="msg_permission_not_granted_yet" translatable="false">Location access not available yet</string>
+    <string name="msg_permission_granted" translatable="false">Location Access Granted</string>
+    <string name="toast_permission_required" translatable="false">This app requires Access Location</string>
+    <string name="your_location" translatable="false">Your Location: </string>
+    <string name="unable_to_get_your_location" translatable="false">Unable to get your location</string>
+    <string name="location_not_ready" translatable="false">Location not ready.</string>
+    <string name="pls_enable_location" translatable="false">Please turn on Location</string>
+    <string name="degree" translatable="false">°</string>
+    <string name="using_last_location" translatable="false">using last location.</string>
+    <string name="dialog_message_sensor_not_exist" translatable="false">Your device doesn\'t have the required sensors</string>
+    <string name="dialog_title" translatable="false">Alert</string>
+    <string name="footer_image">Footer Image</string>
+    <string-array name="surat_names">
+        <item>الفاتحة</item>
+        <item>البقرة</item>
+        <item>آل عمران</item>
+        <item>النساء</item>
+        <item>المائدة</item>
+        <item>الأنعام</item>
+        <item>الأعراف</item>
+        <item>الأنفال</item>
+        <item>التوبة</item>
+        <item>يونس</item>
+        <item>هود</item>
+        <item>يوسف</item>
+        <item>الرعد</item>
+        <item>إبراهيم</item>
+        <item>الحجر</item>
+        <item>النحل</item>
+        <item>الإسراء</item>
+        <item>الكهف</item>
+        <item>مريم</item>
+        <item>طه</item>
+        <item>الأنبياء</item>
+        <item>الحج</item>
+        <item>المؤمنون</item>
+        <item>النور</item>
+        <item>الفرقان</item>
+        <item>الشعراء</item>
+        <item>النمل</item>
+        <item>القصص</item>
+        <item>العنكبوت</item>
+        <item>الروم</item>
+        <item>لقمان</item>
+        <item>السجدة</item>
+        <item>الأحزاب</item>
+        <item>سبأ</item>
+        <item>فاطر</item>
+        <item>يس</item>
+        <item>الصافات</item>
+        <item>ص</item>
+        <item>الزمر</item>
+        <item>غافر</item>
+        <item>فصلت</item>
+        <item>الشورى</item>
+        <item>الزخرف</item>
+        <item>الدخان</item>
+        <item>الجاثية</item>
+        <item>الأحقاف</item>
+        <item>محمد</item>
+        <item>الفتح</item>
+        <item>الحجرات</item>
+        <item>ق</item>
+        <item>الذاريات</item>
+        <item>الطور</item>
+        <item>النجم</item>
+        <item>القمر</item>
+        <item>الرحمن</item>
+        <item>الواقعة</item>
+        <item>الحديد</item>
+        <item>المجادلة</item>
+        <item>الحشر</item>
+        <item>الممتحنة</item>
+        <item>الصف</item>
+        <item>الجمعة</item>
+        <item>المنافقون</item>
+        <item>التغابن</item>
+        <item>الطلاق</item>
+        <item>التحريم</item>
+        <item>الملك</item>
+        <item>القلم</item>
+        <item>الحاقة</item>
+        <item>المعارج</item>
+        <item>نوح</item>
+        <item>الجن</item>
+        <item>المزمل</item>
+        <item>المدثر</item>
+        <item>القيامة</item>
+        <item>الإنسان</item>
+        <item>المرسلات</item>
+        <item>النبأ</item>
+        <item>النازعات</item>
+        <item>عبس</item>
+        <item>التكوير</item>
+        <item>الانفطار</item>
+        <item>المطففين</item>
+        <item>الانشقاق</item>
+        <item>البروج</item>
+        <item>الطارق</item>
+        <item>الأعلى</item>
+        <item>الغاشية</item>
+        <item>الفجر</item>
+        <item>البلد</item>
+        <item>الشمس</item>
+        <item>الليل</item>
+        <item>الضحى</item>
+        <item>الشرح</item>
+        <item>التين</item>
+        <item>العلق</item>
+        <item>القدر</item>
+        <item>البينة</item>
+        <item>الزلزلة</item>
+        <item>العاديات</item>
+        <item>القارعة</item>
+        <item>التكاثر</item>
+        <item>العصر</item>
+        <item>الهمزة</item>
+        <item>الفيل</item>
+        <item>قريش</item>
+        <item>الماعون</item>
+        <item>الكوثر</item>
+        <item>الكافرون</item>
+        <item>النصر</item>
+        <item>المسد</item>
+        <item>الإخلاص</item>
+        <item>الفلق</item>
+        <item>الناس</item>
+    </string-array>
+    <string-array name="surat_fr">
+        <item>     Al-Fatiha</item>
+        <item> Al-Baqarah</item>
+        <item>   Al-Imran</item>
+        <item> An-Nisa\'</item>
+        <item> Al-Maidah</item>
+        <item>Al-Anam</item>
+        <item> Al-Araf</item>
+        <item> Al-Anfal</item>
+        <item>At-Tawbah</item>
+        <item>Yunus</item>
+        <item> Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Raad</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Al-Isra</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ta-Ha</item>
+        <item>Al-Anbiya</item>
+        <item> Al-Hajj</item>
+        <item>Al-Muminune</item>
+        <item>An-Nur</item>
+        <item>Al Furqane</item>
+        <item> As-Shuaraa</item>
+        <item>An-Naml</item>
+        <item> Al-Qasas</item>
+        <item>Al-Ankabut  </item>
+        <item>Ar-Rum</item>
+        <item>Luqman  </item>
+        <item> As-Sajda</item>
+        <item>Al-Ahzab</item>
+        <item>Saba   </item>
+        <item> Fatir </item>
+        <item>Ya-Sin </item>
+        <item>As-Saffat</item>
+        <item> Sad  </item>
+        <item>Az-Zumar</item>
+        <item> Gafir</item>
+        <item> Fussilat</item>
+        <item>Achoura</item>
+        <item>Azzukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jathya</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Ad-Dariyat</item>
+        <item>At-Tur</item>
+        <item>An-Najm</item>
+        <item> Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqi\'a</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadalah</item>
+        <item>Al-Hasr</item>
+        <item>Al-Mumtahanah</item>
+
+        <item>As-Saff</item>
+        <item>Al-Jumua</item>
+        <item>Al-Munafiqun</item>
+        <item> At-Tagabun</item>
+        <item>At-Talaq</item>
+        <item>At-Tahrim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al- Haqqah</item>
+        <item>Al- Maarij </item>
+        <item> Nuh </item>
+        <item>Al-Jinn</item>
+        <item> Al-Muzzamil</item>
+        <item>Al-Muddattir </item>
+
+        <item>Al-Qiyamah</item>
+
+        <item>Al-Insan</item>
+        <item>Al-Mursalate</item>
+        <item>An-Naba</item>
+        <item>An-Naziate</item>
+        <item>Abasa</item>
+
+        <item> At-Takwir</item>
+
+        <item> Al-Infitar</item>
+        <item>Al-Mutaffifune</item>
+        <item>Al-Insiqaq</item>
+        <item>Al-Buruj</item>
+        <item>At-Tariq</item>
+        <item>Al-Ala</item>
+        <item>Al-Gasiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ach-Chams</item>
+        <item>Al-Layl</item>
+        <item>Ad-Duha</item>
+        <item>As-Sarh</item>
+        <item>At-Tin</item>
+        <item>Al-Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-Adiyate</item>
+        <item>Al-Qariah</item>
+        <item>At-Takatur</item>
+        <item>Al-Asr</item>
+        <item> Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Qoraïsh</item>
+        <item>Al-Maun</item>
+        <item>Al-Kawtar </item>
+        <item>Al-Kafirune</item>
+        <item>An-Nasr</item>
+        <item>Al-Masad</item>
+        <item> Al-Ihlas</item>
+        <item>Al-Falaq</item>
+        <item> An-Nas </item>
+    </string-array>
+    <string-array name="cityName">
+        <item>Meccan| </item>
+        <item>Medinan |</item>
+    </string-array>
+    <string-array name="verses_number">
+        <item>7</item>
+        <item>286</item>
+        <item>200</item>
+        <item>176</item>
+        <item>120</item>
+        <item>165</item>
+        <item>206</item>
+        <item>75</item>
+        <item>129</item>
+        <item>109</item>
+        <item>123</item>
+        <item>111</item>
+        <item>43</item>
+        <item>52</item>
+        <item>99</item>
+        <item>128</item>
+        <item>111</item>
+        <item>110</item>
+        <item>98</item>
+        <item>135</item>
+        <item>112</item>
+        <item>78</item>
+        <item>118</item>
+        <item>64</item>
+        <item>77</item>
+        <item>227</item>
+        <item>93</item>
+        <item>88</item>
+
+        <item>69</item>
+        <item>60</item>
+        <item>34</item>
+        <item>30</item>
+        <item>73</item>
+        <item>54</item>
+        <item>45</item>
+        <item>83</item>
+        <item>182</item>
+        <item>88</item>
+        <item>75</item>
+        <item>85</item>
+
+        <item>54</item>
+        <item>53</item>
+        <item>89</item>
+        <item>59</item>
+        <item>37</item>
+        <item>35</item>
+        <item>38</item>
+        <item>29</item>
+        <item>18</item>
+        <item>45</item>
+        <item>60</item>
+        <item>49</item>
+        <item>62</item>
+        <item>55</item>
+        <item>78</item>
+        <item>96</item>
+        <item>29</item>
+        <item>22</item>
+        <item>24</item>
+
+        <item>13</item>
+        <item>14</item>
+        <item>11</item>
+        <item>11</item>
+        <item>18</item>
+        <item>12</item>
+        <item>12</item>
+        <item>30</item>
+
+        <item>52</item>
+        <item>52</item>
+        <item>44</item>
+        <item>28</item>
+        <item>28</item>
+        <item>20</item>
+
+        <item>56</item>
+        <item>40</item>
+        <item>31</item>
+        <item>50</item>
+        <item>40</item>
+        <item>46</item>
+        <item>42</item>
+        <item>29</item>
+        <item>19</item>
+        <item>36</item>
+        <item>25</item>
+        <item>22</item>
+        <item>17</item>
+        <item>19</item>
+        <item>26</item>
+
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
+        <item>21</item>
+        <item>11</item>
+        <item>8</item>
+        <item>8</item>
+        <item>19</item>
+        <item>5</item>
+        <item>8</item>
+        <item>8</item>
+        <item>11</item>
+        <item>11</item>
+        <item>8</item>
+        <item>3</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>6</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exAr">
+      اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ
+    </string>
+    <string name="bismi">
+        بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+    </string>
+    <string name="bismifull">
+﷽
+    </string>
+    <string name="go_to_setting">Go to Setting</string>
+    <string name="go_to_ratting">Go to ratting</string>
+    <string name="about">About</string>
+    <string name="go_to_reshearch">Go to Reshearch</string>
+    <string name="ayat_to_look_for">Ayat to look for</string>
+    <string name="jump_to_surah">Jump to Surah</string>
+    <string name="undo">Do you really want to remove it?</string>
+    <string name="coran">Coran</string>
+    <string name="prayer_time">Prayer</string>
+    <string name="qur_an">Qur\'an</string>
+    <string name="hijri">Hijri</string>
+    <string name="dou_an">Dou\'an</string>
+    <string name="play_murattal">Play Murattal</string>
+    <string name="copy_verse">Copy Verse</string>
+    <string name="share">Share</string>
+    <string name="calculation_prayer_methode">Calculation prayer Methode</string>
+    <string name="volume_athan">Volume Athan</string>
+    <string-array name="ayats">
+        <item>  ٠</item>
+        <item>  ١</item>
+        <item>    ٢</item>
+        <item>  ٣</item>
+        <item>   ٤</item>
+        <item>   ٥</item>
+        <item>  ٦</item>
+        <item>  ٧</item>
+        <item> ٨</item>
+        <item> ٩</item>
+    </string-array>
+    <string-array name="ThemeChoice">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+    </string-array>
+    <string-array name="Translation">
+        <item>Malagasy</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="Qirah">
+        <item>Abdul Basit</item>
+        <item>Abdurrahmaan As-Sudais</item>
+        <item>Abdullah Matroud</item>
+        <item>AbdulSamad</item>
+    </string-array>
+    <string-array name="QirahAudio">
+        <item>Abdul_Basit_Murattal_64kbps</item>
+        <item>Abdurrahmaan_As-Sudais_192kbps</item>
+        <item>Abdullah_Matroud_128kbps</item>
+        <item>AbdulSamad_64kbps_QuranExplorer.Com</item>
+    </string-array>
+    <string-array name="rabanna">
+        <item>S2.V127</item>
+        <item>S2.V128</item>
+        <item>S2.V201</item>
+        <item>S2.V250</item>
+        <item>S2.V286</item>
+        <item>S2.V286</item>
+        <item>S2.V286</item>
+        <item>S3.V8</item>
+        <item>S3.V9</item>
+        <item>S3.V16</item>
+        <item>S3.V53</item>
+        <item>S3.V147</item>
+        <item>S3.V191</item>
+        <item>S3.V192</item>
+        <item>S3.V193</item>
+        <item>S3.V193</item>
+        <item>S3.V194</item>
+        <item>S5.V83</item>
+        <item>S5.V114</item>
+        <item>S7.V23</item>
+        <item>S7.V47</item>
+        <item>S7.V89</item>
+        <item>S7.V126</item>
+        <item>S10.V85</item>
+        <item>S14.V38</item>
+        <item>S14.V40</item>
+        <item>S14.V41</item>
+        <item>S18.V10</item>
+        <item>S20.V45</item>
+        <item>S20.V50</item>
+        <item>S23.V109</item>
+        <item>S25.V65</item>
+        <item>S25.V74</item>
+        <item>S35.V34</item>
+        <item>S40.V7</item>
+        <item>S40.V8-9</item>
+        <item>S59.V10</item>
+        <item>S60.V4</item>
+        <item>S60.V5</item>
+        <item>S66.V8</item>
+    </string-array>
+
+    <string name="Ayat_Kursiyu">
+    اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ
+</string>
+
+    <string name="aboutMe">
+Developer Name: Jaolaza Abdallah Marcel
+Translator : C.R.A Madagascar
+Email: jao.lazabdallah83@gmail.com
+</string>
+</resources>

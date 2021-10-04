@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#0091EA</color>-->
+ <color name="colorPrimary">#0091EA</color>
+ <color name="colorPrimaryDark">#060DD9</color>
+    <color name="colorAccent">#33691E</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="cardColor">#00E676</color>
+    <!--  Theme 2-->
+
+    <color name="colorPrimary2">#F6CCBE</color>
+    <color name="colorPrimary3">#FF80AB</color>
+    <color name="colorAccent2">#ff844c</color>
+    <color name="colorwhite2">#FFFFFF</color>
+    <color name="cardColor2">#dcedc8</color>
+
+</resources>

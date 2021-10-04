@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/backmain"
+    android:id="@+id/contain"
+    tools:context="google.abdallah.quranproject.Activity.SurahActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabanna"
+                android:textSize="25dp"
+                android:textColor="@color/colorwhite"
+
+                android:gravity="center"
+                />
+        </com.google.android.material.appbar.MaterialToolbar>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:tabBackground="@color/colorPrimary"
+            app:tabGravity="fill"
+            app:tabTextColor="@color/colorwhite"
+            app:tabIndicatorColor="@color/colorwhite"
+            app:tabMode="scrollable" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

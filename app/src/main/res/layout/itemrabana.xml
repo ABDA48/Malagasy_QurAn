@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    android:outlineSpotShadowColor="@color/colorPrimary"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/borderayatrect"
+        >
+    <TextView
+        android:id="@+id/numberSurah"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="101"
+        style="@style/numberAyat"
+        android:textColor="@color/colorwhite"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+        <TextView
+            android:id="@+id/namerabana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rabanna 1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/philosopher"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/rabanna"
+            app:layout_constraintStart_toEndOf="@+id/numberSurah"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/rabanna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="رَبَّنَا"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19sp"
+            app:fontFamily="@font/me_quran"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
